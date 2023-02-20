@@ -1,4 +1,4 @@
-# Chat firebase Realtime
+# AR-Art
 
 ## Currently Includes
 
@@ -7,10 +7,6 @@
 - Code-push
 
 - react-native-keychain
-
-<!-- - react-native-config -->
-
-- easy-peasy for state management
 
 - Hooks
 
@@ -55,51 +51,6 @@
 - `useAppTheme()` for using themes
 
 - ... much more
-
-## Getting Started
-
-**Step 1:** Clone and Install
-
-```sh
-
-$ git clone https://github.com/HarishJangra/react-native-easy-starter.git
-
-$ cd react-native-easy-starter
-
-$ yarn
-
-```
-
-**Step 2:** Rename the app [react-native-rename](https://github.com/junedomingo/react-native-rename#installation)
-
-```sh
-
-$ yarn global add react-native-rename
-
-$ react-native-rename <newName>
-
-```
-[View](https://github.com/junedomingo/react-native-rename#installation) more option
-
-**Step 3:** Start the App
-
-```sh
-
-$ yarn start --reset-cache
-
-$ yarn run android
-
-```
-
-### For release build (ANDROID)
-
-see [Generating signed apk](https://facebook.github.io/react-native/docs/signed-apk-android)
-
-```sh
-
-$ yarn run android:build
-
-```
 
 ## How can I contribute?
 
