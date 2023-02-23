@@ -1,22 +1,7 @@
-/**
- * @format
- */
-import 'react-native-gesture-handler';
-import {AppRegistry} from 'react-native';
-import App from './src';
-import {LogBox} from 'react-native';
-// import App from "./src605";
+import { AppRegistry } from 'react-native';
+import App from './App.js';
 
-import {name as appName} from './app.json';
+AppRegistry.registerComponent('TutorialProject', () => App);
 
-LogBox.ignoreLogs([
-  'Require cycle:',
-  'Remote debugger',
-  'Accessing view manager configs',
-  'Warning: componentWillReceiveProps',
-  'Warning: componentWillMount',
-]);
-
-// import "./debugmodules";
-
-AppRegistry.registerComponent(appName, () => App);
+// The below line is necessary for use with the TestBed App
+AppRegistry.registerComponent('ViroSample', () => App);
