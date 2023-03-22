@@ -116,8 +116,10 @@ var BasicPhysicsSample = createReactClass({
     });
   },
 
+  //basic sample
   onBoxCollide(collidedTag, collidedPoint, collidedNormal){
-    console.log("Viro box has collided on the " + collidedTag);
+    // console.log("Viro box has collided on the " + collidedTag);
+    console.log("VIOR test");
   }
 
 });
